@@ -71,7 +71,6 @@ nav ul li a {
   background-size: cover;
   background-position: center;
 
-
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -157,7 +156,6 @@ nav ul li a {
 }
 
 .web-dev-content {
-
   width: 1140px;
   height: 1395px;
   left: 148px;
@@ -179,7 +177,6 @@ nav ul li a {
   width: 852px;
   height: 115px;
   margin-bottom: 48px;
-
 }
 .h2 {
   margin-bottom: 24px;
@@ -288,7 +285,6 @@ nav ul li a {
 }
 
 .div3 {
-
   border-radius: 16px;
   background: linear-gradient(
     270deg,
@@ -304,7 +300,6 @@ nav ul li a {
   align-items: center;
 }
 .div4 {
-
   padding: 48px;
   margin-bottom: 32px;
   width: 946px;
@@ -331,7 +326,6 @@ nav ul li a {
   align-items: center;
   padding: 0px;
   margin: 88px auto 0px;
-
 }
 .context {
   width: 852px;
@@ -367,25 +361,24 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   padding: 0px;
-
 }
-.main2{
+.main2 {
   width: 852px;
-height: 115px;
+  height: 115px;
 }
 
-.cardbox{
+.cardbox {
   width: 1140px;
-height: 400px;
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-align-items: center;
-padding: 0px;
-margin-top: 48px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px;
+  margin-top: 48px;
 }
 
-.cards{
+.cards {
   width: 364px;
   min-height: 400px;
   position: relative;
@@ -397,46 +390,137 @@ margin-top: 48px;
   border-radius: 16px;
   background: rgba(255, 76, 30, 0.05);
 }
-.cardbox h3{
+.cardbox h3 {
   width: 284px;
-height: 36px;
+  height: 36px;
   margin-top: 24px;
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 800;
-line-height: 36px;
-letter-spacing: 0%;
-text-align: left;
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.cardbox p{
+.cardbox p {
   width: 284px;
-height: 52px;
+  height: 52px;
   margin-top: 8px;
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
-letter-spacing: 0%;
-text-align: left;
-opacity: 0.7;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
 }
-.cardbox a{
+.cardbox a {
   margin-top: auto;
   color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration-line: underline;
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
 }
-.css{
+.css {
   background: rgba(0, 76, 232, 0.05);
 }
-.js{
+.js {
   background: rgba(255, 223, 0, 0.05);
 }
+/* Support Section Starts */
+#support {
+  width: 1140px;
+  height: 313px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px 64px 48px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../assets/handshake.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
 
+  background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2),
+    url(Email);
+  margin: 111px auto 0px;
+}
+.sbanner {
+  width: 1044px;
+  height: 185px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.sbanner .h2 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.sbanner .p {
+  width: 606px;
+  height: 52px;
+  opacity: 0.7;
+  margin-bottom: 24px;
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.form {
+  width: 684px;
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+}
+.form .left {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+}
+.form .submit {
+  width: 120px;
+  height: 57px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+
+  background: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+/* Support Section Ends */
