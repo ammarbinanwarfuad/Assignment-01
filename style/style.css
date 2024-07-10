@@ -354,4 +354,89 @@ nav ul li a {
 }
 /* Inspiration Section Ends */
 
+/* Target Section Starts */
+
+/* Target Section Ends */
+#target {
+  margin: 111px auto 0px;
+  width: 1140px;
+  height: 600px;
+  bottom: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+}
+.main2{
+  width: 852px;
+height: 115px;
+}
+
+.cardbox{
+  width: 1140px;
+height: 400px;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+padding: 0px;
+margin-top: 48px;
+}
+
+.cards{
+  width: 364px;
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+.cardbox h3{
+  width: 284px;
+height: 36px;
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.cardbox p{
+  width: 284px;
+height: 52px;
+  margin-top: 8px;
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.cardbox a{
+  margin-top: auto;
+  color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.css{
+  background: rgba(0, 76, 232, 0.05);
+}
+.js{
+  background: rgba(255, 223, 0, 0.05);
+}
 
