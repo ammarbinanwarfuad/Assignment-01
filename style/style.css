@@ -321,6 +321,38 @@ nav ul li a {
 }
 /* Web Dev CSS Ends */
 
-/*  */
+/* Inspiration Section Starts */
+
+#inspiration {
+  width: 1140px;
+  height: 775px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin: 88px auto 0px;
+
+}
+.context {
+  width: 852px;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+  margin-bottom: 48px;
+}
+
+.iframe {
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+/* Inspiration Section Ends */
 
 
